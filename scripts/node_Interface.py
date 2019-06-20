@@ -9,7 +9,7 @@ def node_Interface():
     rospy.Subscriber('topic_IMU_Magnetism', imu_Magnetism, IMU_Magnetism_Callback)
     rospy.Subscriber('topic_Pots', pots, pots_Callback)
     rospy.Subscriber('topic_Current', current, current_Callback)
-    rospy.Subscriber('topic_RPM', RPM, rpm_Callback)
+    rospy.Subscriber('topic_RPM', rpm, RPM_Callback)
     rospy.Subscriber('topic_Arm_Orders', arm_Orders, arm_Orders_Callback)
     pub_Goal = rospy.Publisher('topic_Goal', goal, queue_size=10)
     pub_Arm_Orders = rospy.Publisher('topic_Arm_Orders', arm_Orders, queue_size=10)
