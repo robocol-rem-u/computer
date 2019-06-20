@@ -15,6 +15,9 @@
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
+  <build_depend>master_msgs</build_depend>
+  <build_export_depend>master_msgs</build_export_depend>
+  <exec_depend>master_msgs</exec_depend>
   <build_depend>message_generation</build_depend>
 
   <exec_depend>roscpp</exec_depend>
