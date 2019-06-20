@@ -1,5 +1,5 @@
 <launch>
-  <node pkg="ROS" type="node_Interface.py" name="node_Interface"/>
-  <node pkg="ROS" type="node_XBEE_pc.py" name="node_XBEE_pc"/>
+  <node pkg="computer" type="node_Interface.py" name="node_Interface"/>
+  <node pkg="computer" type="node_XBEE_pc.py" name="node_XBEE_pc"/>
 
 </launch>
