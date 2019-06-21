@@ -1,5 +1,5 @@
 <launch>
-  <node pkg="computer" type="node_Interface.py" name="node_Interface"/>
-  <node pkg="computer" type="node_XBEE_pc.py" name="node_XBEE_pc"/>
+  <node pkg="computer" type="node_interface.py" name="node_interface"/>
+  <node pkg="computer" type="node_xbee_pc.py" name="node_xbee_pc"/>
 
 </launch>
