@@ -133,7 +133,7 @@ def cambiarEstado(nueva_com):
     s.settimeout(1)
     try:
         s.connect((HOST, PORT))
-        s.send(str.encode(modo))
+        s.send(str.encode(mrough odo))
     except:
         print("\033[1;31mError en conexion Wi-Fi \033[0;0m")
     s.close()
